@@ -5,15 +5,15 @@
 ### Prerequisite
 
 Run this command :
-```sudo zypper ar http://download.opensuse.org/repositories/games/openSUSE_Leap_42.3/ games```
+```sudo zypper ar http://download.opensuse.org/repositories/games/openSUSE_Tumbleweed/ games```
 Then run :
 ```zypper in gcc-c++ libXaw-devel freetype2-devel freeimage-devel libXrandr-devel zziplib-devel cmake```
 
 ### Ogre Install
 
-1. [Download Ogre Source](http://www.ogre3d.org/2001/05/21/source-available)
+1. [Ogre 1.10 download](https://bitbucket.org/sinbad/ogre/get/v1-10-4.zip)
 2. Decompress :
-```tar xjf ogre_src_v1-8-0.tar.bz2```
+```unzip sinbad-ogre-1fc934daba1e.zip```
 3. Move to sources directory :
 ```cd ogre_src_v1-8-0```
 4. Create build directory :
