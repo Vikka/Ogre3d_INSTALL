@@ -1,4 +1,4 @@
-# ogre3d_test
+# Ogre3d_INSTALL
 
 ## Install
 
